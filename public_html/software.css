@@ -1,0 +1,293 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    color:white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f0f0f0;
+}
+
+.top-nav, .main-nav, .tech-nav {
+    padding: 10px 0;
+}
+
+.top-nav .container, .main-nav .container, .tech-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav nav ul, .main-nav nav ul, .tech-nav nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.top-nav nav ul li, .main-nav nav ul li, .tech-nav nav ul li {
+    margin-right: 15px;
+}
+
+.top-nav nav ul li a, .main-nav nav ul li a, .tech-nav nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.top-nav .social-icons img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.main-nav  {
+    height: 40px;
+}
+
+.main-nav .category select {
+    padding: 5px;
+}
+
+.main-nav .search-bar {
+    display: flex;
+}
+
+.main-nav .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.main-nav .search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main .container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
+.sidebar{
+      height:50px; 
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    white-space: nowrap; 
+}
+
+.sidebar-item {
+  color:white;
+    padding: 15px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.sidebar-item img {
+    width: 50px;
+    margin-bottom:0px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding:10px;
+}
+
+.sidebar nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+   /* color: #333;*/
+}
+
+.content {
+    width: 75%;
+}
+
+.hero {
+    background-color: #e0f7fa;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    margin-top: 0;
+}
+
+.hero-image img {
+    max-width: 200px;
+}
+
+.action-buttons a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev-button {
+    background-color: #f0f0f0;}
+
+.next-button {
+    background-color: #28a745; 
+    color: white;
+}
+.print-button {
+    background-color: #007bff; 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.tech-nav {
+    width:100vw; 
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+footer {
+    padding: 40px 0;
+}
+.cont {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 24%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ffffff; 
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #cbd5e0;
+    display: block;
+    padding: 5px 0;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.bottom-footer {
+    background-color: #171f2a;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bottom-footer .container {
+    display: block;
+}
+
+.bottom-footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom-footer nav ul li a {
+    text-decoration: none;
+    color: #cbd5e0;
+    margin: 0 10px;
+}
+
+.bottom-footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.bottom-footer p, .bottom-footer a {
+    color: #cbd5e0;
+    margin-top: 10px;
+    display: block;
+}
+
+.bottom-footer a.footer-link {
+    word-break: break-all;
+}
+
+
+
+.sidebar {
+    width: 25%; 
+    height:115vh; 
+    border: 1px solid #ccc;
+    overflow:scroll; 
+}
+
+.item-list {
+    color:white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee; 
+}
+
+
+.item-list li:last-child {
+    border-bottom: none;
+}
+#sr{
+    color:white;
+}
+
